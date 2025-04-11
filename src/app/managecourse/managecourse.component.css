@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4fdfc;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  .main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf0f1;
+  }
+  .topbar {
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.content {
+    padding: 2rem;
+    flex: 1;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background: #f5f5f5;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  
